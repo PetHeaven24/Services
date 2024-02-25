@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Expanding Cards</title>
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="panel active" id="panel" style="background-image: url('https://cdn.tatlerasia.com/asiatatler/i/hk/2020/06/23145935-posh-pet-groomers-hong-kong_cover_2000x1195.jpg')" onclick="removeshow(this)">
+        <h3>Pet Grooming Services</h3>
+        <button onclick="showinfo(1)" class="btn1">Show Info +</button>
+        <div id="info1"> 
+          <section>
+            <div>
+                <h2>Bathing</h2>
+                <p>Regular baths maintain pet hygiene. Our groomers use specialized products for thorough cleaning, targeting odor-prone areas like underarms and paws.</p>
+            </div>
+    
+            <div>
+                <h2>Trimming</h2>
+                <p>Groomers style pets hair for comfort and aesthetics, using tailored techniques, and trim nails to prevent health issues like ingrown nails, using specialized clippers.</p>
+            </div>
+    
+            <div>
+                <h2>Ear Cleaning</h2>
+                <p>Regular ear cleaning reduces infection risks. Groomers employ gentle techniques and cleansers for safe, comfortable ear care.</p>
+            </div>
+    
+            <div>
+                <h2>Spa Services</h2>
+                <p>Luxury grooming salons pamper pets with spa services like aromatherapy baths, nails painting, facials, and massages."</p>
+            </div>
+        </section>
+       </div>
+      </div>
+      <div class="panel" id="panel"  style="background-image: url('https://nomador-strapi-prod.s3.eu-central-1.amazonaws.com/Adobe_Stock_222138223_b599c79063.jpeg')" onclick="removeshow(this)">
+        <h3>Pet Boarding Facilities</h3>
+        <button  onclick="showinfo(2)" class="btn2">Show Info +</button>
+        <div id="info2">
+              <section>
+        <div>
+            <h2>Accommodation</h2>
+            <p>As part of our services, we provide individual kennels or cages for pets, which vary in size and style to accommodate their specific needs.</p>
+        </div>
+
+        <div>
+            <h2>Feeding / Watering</h2>
+            <p>We prioritize pets well-being by providing regular feeding schedules and continuous access to fresh water during their stay, ensuring they stay nourished and hydrated.</p>
+        </div>
+
+        <div>
+            <h2>Exercise / Playtime</h2>
+            <p>Our boarding facility ensures pets can exercise and play either alone or with others. We provide outdoor areas, indoor playrooms, and supervised walks.</p>
+        </div>
+
+        <div>
+            <h2>Medical Care</h2>
+            <p>As a top boarding facility, we offer trained staff for medication and basic care. With 24/7 monitoring, we're equipped to handle emergencies</p>
+        </div>
+    </section>
+        </div>
+      </div>
+      <div class="panel" id="panel" style="background-image: url('https://cdn-p300.americantowns.com/img/article/ma-dog-walking-services-1.jpg')" onclick="removeshow(this)">
+        <h3>Pet Walking Services</h3>
+        <button  onclick="showinfo(3)" class="btn3">Show Info +</button>
+        <div id="info3">
+          <section>
+            <div>
+                <h2>Accommodation</h2>
+                <p>We offer dog walking services throughout the day, ensuring your pet gets the attention they need. With our expert care, you can trust they're in loving hands, easing any guilt about leaving them.</p>
+            </div>
+    
+            <div>
+                <h2>Trust</h2>
+                <p>Our dog walkers are professionally trained, vetted, and background checked. They're also certified in pet first aid and fully insured for your peace of mind.</p>
+            </div>
+    
+            <div>
+                <h2>Safety</h2>
+                <p>We walk dogs in small groups of four or fewer for personalized supervision and freedom to explore. Your dog will be paired with compatible companions based on their size and temperament.</p>
+            </div>
+    
+            <div>
+                <h2>Medical Care</h2>
+                <p>We ensure cleanliness by removing muddy boots and giving your dog a towel rub. Your home will be left secure, with your happy dog eagerly awaiting your return.</p>
+            </div>
+        </section>
+        </div>
+      </div>
+      <div class="panel" id="panel"  style="background-image: url('https://chimacumvet.com/wp-content/uploads/2024/01/pet-dental-care-at-home-scaled.jpeg')" onclick="removeshow(this)">
+        <h3>Pet Dental Care</h3>
+        <button  onclick="showinfo(4)" class="btn4">Show Info +</button>
+        <div id="info4">
+          <section>
+            <div>
+                <h2>Dental Exams</h2>
+                <p>Our service begins with a detailed dental examination to identify any issues such as plaque, tartar, gum disease or infections.</p>
+            </div>
+    
+            <div>
+                <h2>Teeth Cleaning</h2>
+                <p>We specialize in professional pet teeth cleaning, using specialized equipment to ensure optimal dental health.</p>
+            </div>
+    
+            <div>
+                <h2>Preventive Care</h2>
+                <p>As part of our service, we provide post-dental care instructions, including pain management, feeding advice, and preventive oral health tips.</p>
+            </div>
+    
+            <div>
+                <h2>Education / Awareness</h2>
+                <p>We prioritize pet dental education through workshops and informative materials, empowering owners to care for their pet's oral health effectively.</p>
+            </div>
+        </section>
+        </div>
+      </div>
+      <div class="panel" id="panel" style="background-image: url('https://www.dogsmart.ca/_Library/Agility/1979576_763701416974543_731657356_n.jpg')" onclick="removeshow(this)">
+        <h3>Pet Training Programs</h3>
+        <button  onclick="showinfo(5)" class="btn5">Show Info +</button>
+        <div id="info5">
+          <section>
+            <div>
+                <h2>Obedience Training</h2>
+                <p>Our basic obedience training teaches essential commands like sit, stay, come, down, and heel, forming the basis for good manners.</p>
+            </div>
+    
+            <div>
+                <h2>Puppy Training</h2>
+                <p>Our puppy training is  tailored for young pups to foster socialization, and address common behavioral issues like chewing and house soiling.</p>
+            </div>
+    
+            <div>
+                <h2>Behavior Training</h2>
+                <p>Our behavior modification programs target issues such as aggression, excessive barking, and destructive behavior. Through positive reinforcement.</p>
+            </div>
+    
+            <div>
+                <h2>Agility Training</h2>
+                <p>Our agility training teaches dogs to navigate obstacle courses, fostering teamwork and communication between dogs and owners.</p>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="panel" id="panel" style="background-image: url('https://cdn.shopify.com/s/files/1/0435/0466/4732/files/russian_blue_cat_2_600x600.png?v=1658831226')" onclick="removeshow(this)">
+        <h3>Pet Daycare Services</h3>
+        <button  onclick="showinfo(6)" class="btn6">Show Info +</button>
+        <div id="info6">
+          <section>
+            <div>
+                <h3>Supervised Playtime</h3>
+                <p>Our pet daycare offers supervised playtime for dogs, cats, and other pets, fostering socialization for their well-being.</p>
+            </div>
+    
+            <div>
+                <h3>Play Areas</h3>
+                <p>Our daycare facilities offer indoor and outdoor play areas equipped with toys, agility equipment, and enrichment activities to keep pets engaged and entertained.</p>
+            </div>
+    
+            <div>
+                <h3>Group Play and Individual Attention</h3>
+                <p>As a service provider, we offer tailored daycare options for pets, including play sessions with staff, ensuring each pet's social needs are met.</p>
+            </div>
+    
+            <div>
+                <h3>Pet Administration</h3>
+                <p>Our daycare staff administers meals and medications based on each pet's schedule and dietary needs, ensuring they receive proper care.</p>
+            </div>
+        </section>
+        </div>
+      </div>
+    </div>
+    <a href="https://lkharat11.github.io/html-splitbooking-/" class="btn me-5 fw-bolder fs-2" role="button">Book Now !</a>
+
+    <script src="scripto.js"></script>
+  </body>
+</html>
